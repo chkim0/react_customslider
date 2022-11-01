@@ -9,7 +9,7 @@ transform: translateY(-50%);
 &.next {right: 50px;}
 `
 
-function Btns(){
+function Btns({panel}){
     return(
         <>
         <Btn className="prev">prev</Btn>
